@@ -1,12 +1,4 @@
-title: Leetcode-313-Super Ugly Number
-date: 2016-07-30 16:45:53
 
-categories: 
-- Code
-tags:
-- Leetcode
-
----
 # Super Ugly Number
 
 ## Describe:

@@ -1,12 +1,3 @@
-title: Leetcode-263-Ugly Number
-date: 2016-07-30 12:30:53
-
-categories: 
-- Code
-tags:
-- Leetcode
-
----
 
 
 # Ugly Number 
