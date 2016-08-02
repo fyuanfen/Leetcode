@@ -28,7 +28,7 @@ For example, given n = 3, a solution set is:
 
 
 
-### Step1 Options:
+### Step1 :
 对于这道题，在任何时刻，你都有两种选择：
 
 **1.加左括号。**
@@ -36,7 +36,7 @@ For example, given n = 3, a solution set is:
 **2.加右括号。**
 
 
-### Step2 Restraints:
+### Step2 :
 
 同时有以下限制：
 
@@ -44,22 +44,21 @@ For example, given n = 3, a solution set is:
 
 2.如果**已经出现的右括号和左括号一样多**，则不能再加右括号了。因为那样的话新加入的右括号一定无法匹配。
 
-### Step3 Termination:
+### Step3 :
 
-结束条件是：
-
-**左右括号都已经用完。**
+结束条件是：**左右括号都已经用完。**
 
 
+### Step4:
 结束后的正确性：
 
 左右括号用完以后，一定是正确解。因为**1. 左右括号一样多 2.每个右括号都一定有与之配对的左括号**。因此一旦结束就可以加入解集（有时也可能出现结束以后不一定是正确解的情况，这时要多一步判断）。
 
 
+### Step5:
 递归函数传入参数：
 
 限制和结束条件中有“用完”和“一样多”字样，因此你需要知道**左右括号的数目**。
-
 
 当然你还需要知道**当前局面sublist和解集res**。
 
@@ -73,32 +72,32 @@ For example, given n = 3, a solution set is:
     if (还有左括号可以用) {
       加一个左括号，继续递归
     }
-    if (右括号小于左括号) {
+    if (剩下的右括号多于左括号) {
       加一个右括号，继续递归
     }
 ```
 
-
-
 ## Code:
-```java
 
-public static List<String> generateParenthesis2(int n) {
+```java
+public List<String> generateParenthesis(int n) {
+        
         List<String> res = new ArrayList<>();
         backtrack("", res, n, n);
         return res;
     }
 
-    public static void backtrack(String sublist, List<String> res, int left, int right) {
+    public static void backtrack(String s, List<String> res, int left, int right) {
         if (left == 0 && right == 0) {
-            res.add(sublist);
+            res.add(s);
             return;
         }
-        if (left > right)
-            return;
+ 
         if (left > 0)
-            backtrack(sublist + "(", res, left - 1, right);
-        if (right > 0)
-            backtrack(sublist + ")", res, left, right - 1);
+            backtrack(s + "(", res, left - 1, right);
+        if (right > 0&&left<right)
+            backtrack(s + ")", res, left, right - 1);
+        
+    }
             
  ```
