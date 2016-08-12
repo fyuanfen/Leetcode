@@ -1,3 +1,13 @@
+---
+title: Leetcode-2-Add Two Numbers
+date: 2016-08-06 10:32:05
+
+categories: 
+- Code
+tags:
+- Leetcode
+
+---
 
 
 # Add Two Numbers
@@ -12,7 +22,16 @@ Output: 7 -> 0 -> 8
 
 ## Solution:
 
-思路很简单，用两个指针遍历链表，如果链表不为空，则保存链表的节点之和到sum中，把sum%10保存到result节点中，再计算sum/10与两个链表节点之和，依次循环
+本题计算两个数字链表的和，且数字是反向存储的。
+思路很简单，用两个指针遍历链表，如果链表不为空，则计算两个节点之和。把和的低位保存到result链表中，进位则参与到下一位的加法操作中。
+如果有进位，则再计算sum/10与下两个链表节点之和，依次循环
+ 
+本题是十进制加法，还有对应的[**二进制加法**](http://zyy1314.com/2016/08/06/leetcode67/)
+
+[**大数乘法**](http://zyy1314.com/2016/08/07/leetcode43/)
+
+
+
 
 ## Code:
 ```java
@@ -22,7 +41,7 @@ public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode result = new ListNode(0);//结果的头结点
         ListNode d = result;
         int sum = 0;
-        while (c1 != null || c2 != null) {
+        while (c1 != null || c2 != null|| sum ==1) {
             sum /= 10;
             if (c1 != null) {
                 sum += c1.val;
@@ -34,9 +53,9 @@ public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
             }
             d.next = new ListNode(sum % 10);
             d = d.next;
+            sum = sum/10;
         }
-        if (sum / 10 == 1)
-            d.next = new ListNode(1);
+      
         return result.next;
     }
 ```

@@ -1,3 +1,12 @@
+---
+title: Leetcode-202-Happy Number 
+date: 2016-08-01 15:38:00
+categories: 
+- Code
+tags:
+- Leetcode
+
+---
 
 
 # Happy Number 

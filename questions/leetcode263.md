@@ -1,3 +1,12 @@
+title: Leetcode-263-Ugly Number
+date: 2016-07-30 12:30:53
+
+categories: 
+- Code
+tags:
+- Leetcode
+
+---
 
 
 # Ugly Number 
@@ -10,6 +19,7 @@ Ugly numbers are positive numbers whose prime factors only include 2, 3, 5. For 
 
 Note that 1 is typically treated as an ugly number.
 
+<!-- more --> 
 
 ## 解题思路：
 

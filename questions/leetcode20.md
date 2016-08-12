@@ -1,3 +1,12 @@
+---
+title: Leetcode-20-Valid Parentheses
+date: 2016-08-02 08:38:00
+categories: 
+- Code
+tags:
+- Leetcode
+
+---
 
 # Valid Parentheses
 

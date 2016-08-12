@@ -1,4 +1,12 @@
+---
+title: Leetcode-22- Generate Parentheses
+date: 2016-08-02 09:15:06
+categories: 
+- Code
+tags:
+- Leetcode
 
+---
 
 # Generate Parentheses
 

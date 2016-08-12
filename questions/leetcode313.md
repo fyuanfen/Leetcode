@@ -1,3 +1,12 @@
+title: Leetcode-313-Super Ugly Number
+date: 2016-07-30 16:45:53
+
+categories: 
+- Code
+tags:
+- Leetcode
+
+---
 
 # Super Ugly Number
 
@@ -12,6 +21,7 @@ Note:
 (2) The given numbers in primes are in ascending order.
 (3) 0 < k ≤ 100, 0 < n ≤ 106, 0 < primes[i] < 1000.
 
+<!-- more --> 
 
 ## 解题思路：
 这道题其实是LeetCode另外一道题[**Ugly Number II**](http://zyy1314.com/2016/07/30/leetcode264/)的general情况。思路是一样的，首先我们考虑一系列的数字是根据什么原则产生的。很显然，除了第一个数字，其余所有数字都是之前已有数字乘以任意一个在质数数组里的质数.
