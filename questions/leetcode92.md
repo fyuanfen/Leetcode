@@ -20,7 +20,7 @@ return 1->4->3->2->5->NULL.
 
 
 ## Solution:
-反转整个链表可参考[**Reverse Linked List**](http://localhost:4000/2016/08/02/leetcode206/)
+反转整个链表可参考[**Reverse Linked List**](http://zyy1314.com/2016/08/02/leetcode206/)
 
 本题要求把下标范围为[m,n]的节点进行反转，从题例可以看出来，下标从1开始计数。
 

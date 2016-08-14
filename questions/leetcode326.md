@@ -5,6 +5,7 @@ categories:
 - Code
 tags:
 - Leetcode
+
 ---
 
 
@@ -22,7 +23,9 @@ Follow up:
 
 
 ## Method1
-很简单的方法，适用于求任何数的n次方，但执行效率较低。本题中可以把整数转为3进制，然后按照“10* ”匹配
+很简单的方法，适用于求任何数的n次方，但执行效率较低。本题中可以把整数转为3进制，然后按照“10”匹配。
+
+**这里使用`Integer.toString(data,n)`方法，可以把data转为n进制**
 ### Code1:
 ```java
 public class Solution {
