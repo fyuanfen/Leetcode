@@ -207,7 +207,7 @@ I have solved **62 / 495** problems while **87** problems are still locked.
 | 316 | [Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/) | | | Hard |
 | 315 | [Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) | [JavaScript](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Count%20of%20Smaller%20Numbers%20After%20Self/BinarySearch.js) | [Explanation](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Count%20of%20Smaller%20Numbers%20After%20Self/README.md) | Hard |
 | 314 | [Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/) :blue_book: | | | Medium |
-| 313 | [Super Ugly Number](https://leetcode.com/problems/super-ugly-number/) | [JavaScript](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Super%20Ugly%20Number/super-ugly-number.js) | [Explanation](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Super%20Ugly%20Number/README.md) | Medium |
+| 313 | [Super Ugly Number](https://leetcode.com/problems/super-ugly-number/) | 双刷 | [Explanation](https://github.com/fyuanfen/Leetcode/blob/master/questions/leetcode313.md) | Medium |
 | 312 | [Burst Balloons](https://leetcode.com/problems/burst-balloons/) | | | Hard |
 | 311 | [Sparse Matrix Multiplication](https://leetcode.com/problems/sparse-matrix-multiplication/) :blue_book: | | | Medium |
 | 310 | [Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/) | | | Medium |
@@ -256,8 +256,8 @@ I have solved **62 / 495** problems while **87** problems are still locked.
 | 267 | [Palindrome Permutation II](https://leetcode.com/problems/palindrome-permutation-ii/) :blue_book: | | | Medium |
 | 266 | [Palindrome Permutation](https://leetcode.com/problems/palindrome-permutation/) :blue_book: | | | Easy |
 | 265 | [Paint House II](https://leetcode.com/problems/paint-house-ii/) :blue_book: | | | Hard |
-| 264 | [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/) | [JavaScript](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Ugly%20Number%20II/ugly-number-ii.js) | [Explanation](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Ugly%20Number%20II/README.md) | Medium |
-| 263 | [Ugly Number](https://leetcode.com/problems/ugly-number/) | [JavaScript](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Ugly%20Number/ugly-number.js) | [Explanation](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Ugly%20Number/README.md) | Easy |
+| 264 | [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/) | 双刷 | [Explanation](https://github.com/fyuanfen/Leetcode/blob/master/questions/leetcode264.md) | Medium |
+| 263 | [Ugly Number](https://leetcode.com/problems/ugly-number/) | 双刷| [Explanation](https://github.com/fyuanfen/Leetcode/blob/master/questions/leetcode263.md) | Easy |
 | 261 | [Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/) :blue_book: | | | Medium |
 | 260 | [Single Number III](https://leetcode.com/problems/single-number-iii/) | [JavaScript](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Single%20Number%20III/single-number-iii.js) | | Medium |
 | 259 | [3Sum Smaller](https://leetcode.com/problems/3sum-smaller/) :blue_book: | | | Medium |
