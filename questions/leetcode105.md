@@ -76,13 +76,25 @@ return;
 
 ## javascript解法
 ```javascript
-function TreeNode(x) {
-    this.val = x;
-    this.left = null;
-    this.right = null;
-} 
+/**
+ * Definition for a binary tree node.
+ * function TreeNode(val) {
+ *     this.val = val;
+ *     this.left = this.right = null;
+ * }
+ */
+
+function isEmpty(obj)
+{
+    for (var name in obj) 
+    {
+        return false;
+    }
+    return true;
+};
+
 function build(pre, inorder, pstart, pend, istart, iend) {
-    if (pstart > pend||istart>iend)return;
+    if (pstart > pend|| istart > iend)return null;
     var root = pre[pstart];
     
     for(var find = istart; find<=iend;find++){
@@ -99,37 +111,31 @@ function build(pre, inorder, pstart, pend, istart, iend) {
 function reConstructBinaryTree(pre, vin)
 {
     if(!pre || isEmpty(pre))
-return;
+return pre;
+if(!vin || isEmpty(vin))
+return vin;
     return build(pre, vin, 0, pre.length-1, 0, vin.length -1);
     
-}
+};
 
 ```
 
 ## 解法2：
+还有个大牛的解法，很优雅，嗯，可是看不懂。[可以戳链接瞅瞅](https://discuss.leetcode.com/topic/16221/simple-o-n-without-map)
 ```javascript
-/* function TreeNode(x) {
-    this.val = x;
-    this.left = null;
-    this.right = null;
-} */
-function reConstructBinaryTree(pre, vin)
-{
-    // write code here
-    if (!pre || pre.length === 0) {
-        return;
-    }
-    var treeNode = {
-        val: pre[0]
-    }
-    for(var i = 0; i < pre.length; i++) {
-        if (vin[i] === pre[0]) {
-            treeNode.left = reConstructBinaryTree(pre.slice(1, i+1), vin.slice(0, i));
-            treeNode.right = reConstructBinaryTree(pre.slice(i+1),vin.slice(i+1));
+var buildTree = function(preorder, inorder) {
+    p = i = 0
+    build = function(stop) {
+        if (inorder[i] != stop) {
+            var root = new TreeNode(preorder[p++])
+            root.left = build(root.val)
+            i++
+            root.right = build(stop)
+            return root
         }
+        return null
     }
-    return treeNode;
-    console.log(treeNode)
-}
+    return build()
+};
 
 ```
