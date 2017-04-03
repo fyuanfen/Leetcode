@@ -20,7 +20,8 @@ tags:
 再对于先序遍历，从第二个节点开始，到中序遍历中左子树的长度，就是左子树的先序遍历。
 同理，右子树也是一样，这是一个递归过程。
 ## java解法：
-```
+
+```java
 public class Solution {
     public TreeNode reConstructBinaryTree(int [] pre,int [] in) {
         TreeNode root=reConstructBinaryTree(pre,0,pre.length-1,in,0,in.length-1);
@@ -52,7 +53,7 @@ public class Solution {
 2. 检测是否为空要遍历对象的属性。
 
 如下所示:
-```
+```javascript
 /*
  * 检测对象是否是空对象(不包含任何可读属性)。
  * 方法既检测对象本身的属性，也检测从原型继承的属性(因此没有使hasOwnProperty)。
