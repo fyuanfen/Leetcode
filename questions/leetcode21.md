@@ -12,6 +12,8 @@ tags:
 Merge two sorted linked lists and return it as a new list. The new list should be made by splicing together the nodes of the first two lists.
 ## Solution1:
 合并两个有序链表，这里为了统一操作，我用了一个head结点，依次比较l1和l2的值
+
+还有进阶版[合并k个有序链表](https://github.com/fyuanfen/Leetcode/blob/master/questions/leetcode23.md)
 ## Code1:
 ```java
    public ListNode mergeTwoLists(ListNode l1, ListNode l2) {

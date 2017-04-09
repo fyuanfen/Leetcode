@@ -13,9 +13,9 @@ tags:
 
 
 合并k个有序链表
-Merge k sorted linked lists and return it as one sorted list. Analyze and describe its complexity.
 
-使用递归方法，首先使用partition函数将k个有序链表划分为多个子问题，然后分别进行归并排序。
+
+使用递归方法，首先使用partition函数将k个有序链表划分为多个子问题，然后分别[两两进行归并排序](https://github.com/fyuanfen/Leetcode/blob/master/questions/leetcode21.md)。
 
 ```java
 public static ListNode mergeKLists(ListNode[] lists){
