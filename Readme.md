@@ -484,7 +484,7 @@ I have solved **62 / 495** problems while **87** problems are still locked.
 | 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [JavaScript](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Generate%20Parentheses/generate-parentheses.js) | | Medium |
 | 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | 链表 | [Explanation](https://github.com/fyuanfen/Leetcode/blob/master/questions/leetcode21.md) | Easy |
 | 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [JavaScript](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Valid%20Parentheses/valid-parentheses.js) | [Explanation](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Valid%20Parentheses/README.md) | Easy |
-| 19 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [JavaScript](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Remove%20Nth%20Node%20From%20End%20of%20List/remove-nth-node-from-end-of-list.js) | [Explanation](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Remove%20Nth%20Node%20From%20End%20of%20List/README.md) | Medium |
+| 19 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | 链表 | [Explanation](https://github.com/fyuanfen/Leetcode/blob/master/questions/leetcode19.md) | Medium |
 | 18 | [4Sum](https://leetcode.com/problems/4sum/) | [JavaScript](https://github.com/hanzichi/leetcode/blob/master/Algorithms/4Sum/4sum.js) | | Medium |
 | 17 | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | [JavaScript](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Letter%20Combinations%20of%20a%20Phone%20Number/letter-combinations-of-a-phone-number.js) | [Explanation](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Letter%20Combinations%20of%20a%20Phone%20Number/README.md) | Medium |
 | 16 | [3Sum Closest](https://leetcode.com/problems/3sum-closest/) | [JavaScript](https://github.com/hanzichi/leetcode/blob/master/Algorithms/3Sum%20Closest/3sum-closest.js) | | Medium |
@@ -504,12 +504,12 @@ I have solved **62 / 495** problems while **87** problems are still locked.
 | 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [JavaScript](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Add%20Two%20Numbers/add-two-numbers.js) | | Medium |
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [JavaScript](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Two%20Sum/two-sum.js) | [Explanation](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Two%20Sum/README.md) | Easy |
 
-
+# 剑指offer
 | # | Title | Category | Explanation | Difficulty |
 |:---:|:---:|:---:|:---:|:---:|
 | 1 | [二维数组的查找](https://www.nowcoder.com/practice/abc3fe2ce8e146608e868a70efebf62e?tpId=13&tqId=11154&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking&tPage=1)| 数组 | [Explanation](https://github.com/fyuanfen/Leetcode/blob/master/questions/%E4%BA%8C%E7%BB%B4%E6%95%B0%E7%BB%84%E7%9A%84%E6%9F%A5%E6%89%BE.md)| |
-| 2 | [从上往下打印二叉树](https://www.nowcoder.com/practice/7fe2212963db4790b57431d9ed259701?tpId=13&tqId=11175&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking&tPage=2) | 树 |  |  |
-| 3 |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
+| 2 | [从上往下打印二叉树](https://www.nowcoder.com/practice/7fe2212963db4790b57431d9ed259701?tpId=13&tqId=11175&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking&tPage=2) | 树 | [Explanation](https://github.com/fyuanfen/Leetcode/blob/master/questions/%E4%BB%8E%E4%B8%8A%E5%BE%80%E4%B8%8B%E6%89%93%E5%8D%B0%E4%BA%8C%E5%8F%89%E6%A0%91.md) |  |
+| 3 | [树的子结构](https://www.nowcoder.com/practice/6e196c44c7004d15b1610b9afca8bd88?tpId=13&tqId=11170&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking&tPage=1) | 树 | [Explanation](https://github.com/fyuanfen/Leetcode/blob/master/questions/%E6%A0%91%E7%9A%84%E5%AD%90%E7%BB%93%E6%9E%84.md) |  |
+| 4 | [调整数组顺序使奇数位于偶数前](https://www.nowcoder.com/practice/beb5aa231adc45b2a5dcc5b62c93f593?tpId=13&tqId=11166&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking&tPage=1) | 数组 | [Explanation](https://github.com/fyuanfen/Leetcode/blob/master/questions/%E8%B0%83%E6%95%B4%E6%95%B0%E7%BB%84%E9%A1%BA%E5%BA%8F%E4%BD%BF%E5%A5%87%E6%95%B0%E4%BD%8D%E4%BA%8E%E5%81%B6%E6%95%B0%E5%89%8D.md) |  |
+| 5 | [链表中倒数第k个结点](https://www.nowcoder.com/practice/529d3ae5a407492994ad2a246518148a?tpId=13&tqId=11167&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking&tPage=1) | 链表 | [Explanation]() |  |
+| 6 |  |  |  |  |
