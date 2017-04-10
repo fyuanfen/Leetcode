@@ -1,4 +1,4 @@
-# Leetcode Solutions with JavaScript
+# Leetcode Solutions 
 
 Update time: Tue Mar 27 2017 14:00:15 GMT+0800 (中国标准时间)
 
@@ -6,7 +6,7 @@ I have solved **62 / 495** problems while **87** problems are still locked.
 
 (Notes: :blue_book: means you need to buy a book from Leetcode)
 
-| # | Title | Source Code | Explanation | Difficulty |
+| # | Title | Category | Explanation | Difficulty |
 |:---:|:---:|:---:|:---:|:---:|
 | 535 | [Encode and Decode TinyURL](https://leetcode.com/problems/encode-and-decode-tinyurl/) | | | Medium |
 | 533 | [Lonely Pixel II](https://leetcode.com/problems/lonely-pixel-ii/) :blue_book: | [Python](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Lonely%20Pixel%20II/lonely-pixel-ii.py) | | Medium |
@@ -285,15 +285,15 @@ I have solved **62 / 495** problems while **87** problems are still locked.
 | 237 | [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/) | [JavaScript](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Delete%20Node%20in%20a%20Linked%20List/delete-node-in-a-linked-list.js) | [Explanation](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Delete%20Node%20in%20a%20Linked%20List/README.md) | Easy |
 | 236 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [JavaScript](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree/lowest-common-ancestor-of-a-binary-tree.js) | [Explanation](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree/readme.md) | Medium |
 | 235 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [JavaScript](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Lowest%20Common%20Ancestor%20of%20a%20Binary%20Search%20Tree/lowest-common-ancestor-of-a-binary-search-tree.js) | | Easy |
-| 234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | [JavaScript](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Palindrome%20Linked%20List/palindrome-linked-list.js) | [Explanation](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Palindrome%20Linked%20List/README.md) | Easy |
-| 233 | [Number of Digit One](https://leetcode.com/problems/number-of-digit-one/) | [JavaScript](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Number%20of%20Digit%20One/number-of-digit-one.js) | | Hard |
-| 232 | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | [JavaScript](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Implement%20Queue%20using%20Stacks/implement-queue-using-stacks.js) | [Explanation](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Implement%20Queue%20using%20Stacks/README.md) | Easy |
+| 234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | 回文 | [Explanation](https://github.com/fyuanfen/Leetcode/blob/master/questions/leetcode234.md) | Easy |
+| 233 | [Number of Digit One](https://leetcde.com/problems/number-of-digit-one/) | 数学| [Explanation](https://github.com/fyuanfen/Leetcode/blob/master/questions/leetcode233.md)  | Hard |
+| 232 | [Implement Queue usoing Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | [JavaScript](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Implement%20Queue%20using%20Stacks/implement-queue-using-stacks.js) | [Explanation](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Implement%20Queue%20using%20Stacks/README.md) | Easy |
 | 231 | [Power of Two](https://leetcode.com/problems/power-of-two/) | [JavaScript](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Power%20of%20Two/power-of-two.js) | [Explanation](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Power%20of%20Two/README.md) | Easy |
 | 230 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [JavaScript](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Kth%20Smallest%20Element%20in%20a%20BST/kth-smallest-element-in-a-bst.js) | [Explanation](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Kth%20Smallest%20Element%20in%20a%20BST/readme.md) | Medium |
 | 229 | [Majority Element II](https://leetcode.com/problems/majority-element-ii/) | [JavaScript](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Majority%20Element%20II/majority-element-ii.js) | | Medium |
 | 228 | [Summary Ranges](https://leetcode.com/problems/summary-ranges/) | [JavaScript](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Summary%20Ranges/summary-ranges.js) | [Explanation](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Summary%20Ranges/README.md) | Medium |
 | 227 | [Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/) | [JavaScript](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Basic%20Calculator%20II/basic-calculator-ii.js) | | Medium |
-| 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [JavaScript](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Invert%20Binary%20Tree/invert-binary-tree.js) | [Explanation](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Invert%20Binary%20Tree/README.md) | Easy |
+| 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) |树 | [Explanation](https://github.com/fyuanfen/Leetcode/blob/master/questions/leetcode206.md) | Easy |
 | 225 | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/) | [JavaScript](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Implement%20Stack%20using%20Queues/implement-stack-using-queues.js) | [Explanation](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Implement%20Stack%20using%20Queues/README.md) | Easy |
 | 224 | [Basic Calculator](https://leetcode.com/problems/basic-calculator/) | [JavaScript](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Basic%20Calculator/better-solution.js) | [Explanation](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Basic%20Calculator/README.md) | Hard |
 | 223 | [Rectangle Area](https://leetcode.com/problems/rectangle-area/) | [JavaScript](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Rectangle%20Area/index_without_sort.js) | [Explanation](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Rectangle%20Area/README.md) | Medium |
@@ -313,7 +313,7 @@ I have solved **62 / 495** problems while **87** problems are still locked.
 | 209 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | [JavaScript](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Minimum%20Size%20Subarray%20Sum/minimum-size-subarray-sum.js) | | Medium |
 | 208 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | [JavaScript](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Implement%20Trie%20(Prefix%20Tree)/implement-trie-prefix-tree.js) | | Medium |
 | 207 | [Course Schedule](https://leetcode.com/problems/course-schedule/) | [JavaScript](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Course%20Schedule/course-schedule.js) | [Explanation](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Course%20Schedule/README.md) | Medium |
-| 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [JavaScript](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Reverse%20Linked%20List/index%E2%85%A2.js) | | Easy |
+| 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | 链表 |[Explanation](https://github.com/fyuanfen/Leetcode/blob/master/questions/leetcode206.md) | Easy |
 | 205 | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) | [JavaScript](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Isomorphic%20Strings/isomorphic-strings.js) | [Explanation](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Isomorphic%20Strings/README.md) | Easy |
 | 204 | [Count Primes](https://leetcode.com/problems/count-primes/) | [JavaScript](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Count%20Primes/count-primes.js) | [Explanation](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Count%20Primes/README.md) | Easy |
 | 203 | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/) | [JavaScript](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Remove%20Linked%20List%20Elements/remove-linked-list-elements.js) | [Explanation](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Remove%20Linked%20List%20Elements/README.md) | Easy |
@@ -378,7 +378,7 @@ I have solved **62 / 495** problems while **87** problems are still locked.
 | 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | [JavaScript](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Longest%20Consecutive%20Sequence/longest-consecutive-sequence.js) | | Hard |
 | 127 | [Word Ladder](https://leetcode.com/problems/word-ladder/) | | | Medium |
 | 126 | [Word Ladder II](https://leetcode.com/problems/word-ladder-ii/) | | | Hard |
-| 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [JavaScript](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Valid%20Palindrome/valid-palindrome.js) | [Explanation](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Valid%20Palindrome/README.md) | Easy |
+| 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | 回文 | [Explanation](https://github.com/fyuanfen/Leetcode/blob/master/questions/leetcode125.md) | Easy |
 | 124 | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | | | Hard |
 | 123 | [Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/) | [JavaScript](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Best%20Time%20to%20Buy%20and%20Sell%20Stock%20III/best-time-to-buy-and-sell-stock-iii.js) | | Hard |
 | 122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [JavaScript](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II/dp_solution.js) | [Explanation](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II/README.md) | Easy |
@@ -433,7 +433,7 @@ I have solved **62 / 495** problems while **87** problems are still locked.
 | 73 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) | [JavaScript](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Set%20Matrix%20Zeroes/set-matrix-zeroes.js) | [Explanation](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Set%20Matrix%20Zeroes/README.md) | Medium |
 | 72 | [Edit Distance](https://leetcode.com/problems/edit-distance/) | | | Hard |
 | 71 | [Simplify Path](https://leetcode.com/problems/simplify-path/) | [JavaScript](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Simplify%20Path/simplify-path.js) | | Medium |
-| 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [JavaScript](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Climbing%20Stairs/climbing-stairs.js) | [Explanation](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Climbing%20Stairs/README.md) | Easy |
+| 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | 动态规划 | [Explanation](https://github.com/fyuanfen/Leetcode/blob/master/questions/leetcode70.md) | Easy |
 | 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) | [JavaScript](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Sqrt(x)/sqrtx.js) | [Explanation](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Sqrt(x)/README.md) | Easy |
 | 68 | [Text Justification](https://leetcode.com/problems/text-justification/) | | | Hard |
 | 67 | [Add Binary](https://leetcode.com/problems/add-binary/) | [JavaScript](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Add%20Binary/add-binary.js) | [Explanation](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Add%20Binary/README.md) | Easy |
@@ -453,7 +453,7 @@ I have solved **62 / 495** problems while **87** problems are still locked.
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [JavaScript](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Maximum%20Subarray/maximum-subarray.js) | | Easy |
 | 52 | [N-Queens II](https://leetcode.com/problems/n-queens-ii/) | [JavaScript](https://github.com/hanzichi/leetcode/blob/master/Algorithms/N-Queens%20II/n-queens-ii.js) | | Hard |
 | 51 | [N-Queens](https://leetcode.com/problems/n-queens/) | [JavaScript](https://github.com/hanzichi/leetcode/blob/master/Algorithms/N-Queens/n-queens.js) | | Hard |
-| 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n/) | [JavaScript](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Pow(x,%20n)/powx-n.js) | [Explanation](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Pow(x,%20n)/README.md) | Medium |
+| 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n/) | 数学 | [Explanation](https://github.com/fyuanfen/Leetcode/blob/master/questions/leetcode50.md) | Medium |
 | 49 | [Group Anagrams](https://leetcode.com/problems/anagrams/) | [JavaScript](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Group%20Anagrams/anagrams.js) | | Medium |
 | 48 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | [JavaScript](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Rotate%20Image/rotate-image.js) | | Medium |
 | 47 | [Permutations II](https://leetcode.com/problems/permutations-ii/) | [JavaScript](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Permutations%20II/permutations-ii.js) | | Medium |
@@ -480,7 +480,7 @@ I have solved **62 / 495** problems while **87** problems are still locked.
 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [JavaScript](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Remove%20Duplicates%20from%20Sorted%20Array/remove-duplicates-from-sorted-array.js) | [Explanation](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Remove%20Duplicates%20from%20Sorted%20Array/README.md) | Easy |
 | 25 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | [JavaScript](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Reverse%20Nodes%20in%20k-Group/reverse-nodes-in-k-group.js) | | Hard |
 | 24 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | [JavaScript](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Swap%20Nodes%20in%20Pairs/swap-nodes-in-pairs.js) | [Explanation](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Swap%20Nodes%20in%20Pairs/README.md) | Medium |
-| 23 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [JavaScript](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Merge%20k%20Sorted%20Lists/merge-k-sorted-lists.js) | | Hard |
+| 23 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | 链表 | [Java](https://github.com/fyuanfen/Leetcode/blob/master/questions/leetcode23.md)| Hard |
 | 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [JavaScript](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Generate%20Parentheses/generate-parentheses.js) | | Medium |
 | 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | 链表 | [Explanation](https://github.com/fyuanfen/Leetcode/blob/master/questions/leetcode21.md) | Easy |
 | 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [JavaScript](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Valid%20Parentheses/valid-parentheses.js) | [Explanation](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Valid%20Parentheses/README.md) | Easy |
@@ -494,12 +494,22 @@ I have solved **62 / 495** problems while **87** problems are still locked.
 | 12 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/) | [JavaScript](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Integer%20to%20Roman/integer-to-roman.js) | | Medium |
 | 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | [JavaScript](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Container%20With%20Most%20Water/O(nlogn).js) | | Medium |
 | 10 | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) | [JavaScript](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Regular%20Expression%20Matching/regular-expression-matching.js) | [Explanation](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Regular%20Expression%20Matching/README.md) | Hard |
-| 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | [JavaScript](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Palindrome%20Number/palindrome-number.js) | [Explanation](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Palindrome%20Number/README.md) | Easy |
+| 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | 回文 | [Explanation](https://github.com/fyuanfen/Leetcode/blob/master/questions/leetcode9.md) | Easy |
 | 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | [JavaScript](https://github.com/hanzichi/leetcode/blob/master/Algorithms/String%20to%20Integer%20(atoi)/string-to-integer-atoi.js) | | Medium |
 | 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | [JavaScript](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Reverse%20Integer/reverse-integer.js) | [Explanation](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Reverse%20Integer/README.md) | Easy |
 | 6 | [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/) | [JavaScript](https://github.com/hanzichi/leetcode/blob/master/Algorithms/ZigZag%20Conversion/zigzag-conversion.js) | [Explanation](https://github.com/hanzichi/leetcode/blob/master/Algorithms/ZigZag%20Conversion/README.md) | Medium |
-| 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [JavaScript](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Longest%20Palindromic%20Substring/longest-palindromic-substring.js) | [Explanation](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Longest%20Palindromic%20Substring/README.md) | Medium |
+| 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | 回文 | [Explanation](https://github.com/fyuanfen/Leetcode/blob/master/questions/leetcode5.md) | Medium |
 | 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [JavaScript](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Median%20of%20Two%20Sorted%20Arrays/O(nlogn).js) | | Hard |
 | 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [JavaScript](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Longest%20Substring%20Without%20Repeating%20Characters/longest-substring-without-repeating-characters.js) | | Medium |
 | 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [JavaScript](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Add%20Two%20Numbers/add-two-numbers.js) | | Medium |
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [JavaScript](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Two%20Sum/two-sum.js) | [Explanation](https://github.com/hanzichi/leetcode/blob/master/Algorithms/Two%20Sum/README.md) | Easy |
+
+
+| # | Title | Category | Explanation | Difficulty |
+|:---:|:---:|:---:|:---:|:---:|
+| 1 | 二维数组的查找| | | |
+| 2 |  |  |  |  |
+| 3 |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |

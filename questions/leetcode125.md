@@ -19,11 +19,11 @@ For example,
 
 同系列题目:
 
-回文数字[**Palindrome Number**](http://zyy1314.com/2016/08/14/leetcode9/)
+回文数字[**Palindrome Number**](http://zyy1217.com/2016/08/14/leetcode9/)
 
-回文链表[**Palindrome Linked List**](http://zyy1314.com/2016/08/14/leetcode234/)
+回文链表[**Palindrome Linked List**](http://zyy1217.com/2016/08/14/leetcode234/)
 
-回文字符串[**Valid Palindrome **](http://zyy1314.com/2016/08/14/leetcode125/)
+回文字符串[**Valid Palindrome**](http://zyy1217.com/2016/08/14/leetcode125/)
 
 ## Solution:
 
@@ -45,3 +45,33 @@ def isPalindrome(self, s):
         l +=1; r -= 1
     return True
  ```
+ 
+ java解法：
+ 
+ ```java
+  public static boolean isPalindromAlphanumeric(String s) {
+        if(s.isEmpty()) {return true;}
+        int l = 0,r = s.length()-1;
+
+        while(l<r) {
+            char left = s.charAt(l);
+            char right = s.charAt(r);
+            if( !Character.isLetterOrDigit(left)) {
+                l++;
+            }
+            else if ( !Character.isLetterOrDigit(right)) {
+                r--;
+            }
+            else {
+                if (Character.toLowerCase(left) == Character.toLowerCase(right)) {
+                    l++;
+                    r--;
+                }
+                else{
+                    return false;
+                }
+            }
+        }
+        return true;
+    }
+```

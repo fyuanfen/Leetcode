@@ -35,6 +35,20 @@ A linked list can be reversed either iteratively or recursively.
     
 ```
 
+```javascript
+function ReverseList(pHead)
+{
+   var p3 = null,
+       p2 = pHead;
+    while( p2 !==null) {
+        p2 = pHead.next;
+        pHead.next = p3;
+        p3 = pHead;
+        pHead = p2;
+    }
+    return p3;
+}
+```
 
 2. recursion
 ```java
