@@ -507,8 +507,8 @@ I have solved **62 / 495** problems while **87** problems are still locked.
 
 | # | Title | Category | Explanation | Difficulty |
 |:---:|:---:|:---:|:---:|:---:|
-| 1 | 二维数组的查找| | | |
-| 2 |  |  |  |  |
+| 1 | [二维数组的查找](https://www.nowcoder.com/practice/abc3fe2ce8e146608e868a70efebf62e?tpId=13&tqId=11154&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking&tPage=1)| 数组 | [Explanation](https://github.com/fyuanfen/Leetcode/blob/master/questions/%E4%BA%8C%E7%BB%B4%E6%95%B0%E7%BB%84%E7%9A%84%E6%9F%A5%E6%89%BE.md)| |
+| 2 | [从上往下打印二叉树](https://www.nowcoder.com/practice/7fe2212963db4790b57431d9ed259701?tpId=13&tqId=11175&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking&tPage=2) | 树 |  |  |
 | 3 |  |  |  |  |
 |  |  |  |  |  |
 |  |  |  |  |  |
